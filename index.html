@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="lgn_pg head">
+        <div class="lft_sd">
+            <div class="image_lft">
+                <div class="wrapper">
+                    <img src="model01.jpg" class="image_01 image" alt="pic">
+                    <img src="model02.jpg" class="image_02 image" alt="pic">
+                    <img src="model03.jpg" class="image_03 image" alt="pic">
+                    <img src="model04.jpg" class="image_04 image" alt="pic">
+                    <img src="model04.jpg" class="image_04 image" alt="pic">
+                </div>
+            </div>
+            <div class="accounts">
+                <div class="accounts_undr_bx">
+                    <h1>Continue with </h1>
+
+                    <div class="cntnues_bx google">
+                        <img src="google.png" class="acnt_lg" alt="logo">
+                        <p class="acnt_lg_name ggl">GOOGLE</p>
+                    </div>
+                    <div class="cntnues_bx insta ">
+                        <img src="instagram.png" class="acnt_lg" alt="logo">
+                        <p class="acnt_lg_name">INSTAGRAM</p>
+                    </div>
+                    <div class="cntnues_bx twit">
+                        <img src="twitter.png" class="acnt_lg" alt="logo">
+                        <p class="acnt_lg_name">TWITTER</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rght_sd">
+         
+            <div class="lgn_inpts" >
+                <div class="logo"></div>
+                <form id="signUp" name="signUp" class="input_field_bx">
+                    <div id="gray">
+    
+                        <p class="sign_up">Sign up your account</p>
+                        <input  id="username" type="text" style="margin: .5rem 0;" class="input_field usrnm Eml"
+                            placeholder="Username or Email"name="username"><br>
+                        <input name="password" type="password" style="margin: .5rem 0;" class="input_field paswrd " placeholder="Password">
+                        <input name="phonenumber" type="number" id="number" style="margin: .5rem 0;" class="input_field  " placeholder="Phone number">
+                        <input  name="newpassword" type="text"  style="margin: .5rem 0;" class="input_field  " placeholder="create password">
+                        <div class="rmbr">
+                            <input type="checkbox" name="forgot" id="checkpoint">
+                            <p onclick="forgoted()">forgot password</p>
+                        </div>
+                        <div class="btn">
+                            <button class="sbmt_btn">Login</button>
+                            <button class="sbmt_btn next">Next</button>
+                        </div>
+                    </div>
+                    <div class="forgot" id="forgot_page">
+                        <div class="frgt_inpt_fld">
+                            <div class="frgt_input_wrapper">
+                                <p class="frgt_hd">Forgot Password</p>
+                                <input name="current_username" type="text " class="frgt_inputs"placeholder="Username"><br>
+                                <input name="current_email" type="text " class="frgt_inputs frgt_eml"placeholder="Email address"><br>
+                                <button type="button" onclick="prev()" class="frgt_btn">Prev</button>
+                                <button type="button" class="frgt_btn get_otp">Get OTP</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- <div class="forgot" id="fogot_page">
+                
+                <div class="frgt_inpt_fld">
+                <p class="frgt_head">Forgot Password</p>
+                <div class="frgt_inpts_bx">
+                    <form class="frgt_frm">
+                        <input type="text"class="frgt_inputs" placeholder="Username"><br>
+                        <input type="text"class="frgt_inputs frgt_emial" placeholder="Enter your email address"><br>
+                        <button class="gt_otp" >Prev</button>
+                        <button class="gt_otp Send_OTP" >Get OTP</button>
+                    </form>
+                </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <script src="config.js"></script>
+</body>
+</html>
